@@ -6,11 +6,12 @@
 
 ## 安装
 
-在支持GitHub技能安装的Codex对话中直接说：
+在当前 Agent 的对话中直接说：
 
-> 请使用 skill-installer，从 https://github.com/Ma-Ruinan/Online-Data-Analysis 安装 skills/online-data-eval-dataset 这个 skill。
+> 请从 https://github.com/Ma-Ruinan/Online-Data-Analysis 安装 online-data-eval-dataset 技能。  
+> 将仓库中的 `skills/online-data-eval-dataset` 完整文件夹安装到当前 Agent 的技能目录，保留脚本和参考资料，并确认技能已被识别和启用。
 
-需要固定版本时，可指定Git引用`v1.0.0`。安装完成后下一轮对话即可调用。其他设备按相同方式安装。
+需要固定版本时，可指定Git引用`v1.0.0`。其他设备按相同方式安装。
 
 仓库的[技能目录](skills/online-data-eval-dataset/SKILL.md)是安装源；[dist](dist/)保存版本包及SHA256。`.skill`包是带技能根目录的ZIP归档，用于下载、校验和归档；安装优先使用上面的GitHub路径，不假设所有客户端都支持直接导入该扩展名。
 
