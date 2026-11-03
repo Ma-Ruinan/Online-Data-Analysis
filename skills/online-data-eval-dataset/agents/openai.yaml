@@ -1,0 +1,4 @@
+interface:
+  display_name: "线上真实数据测评集构建"
+  short_description: "从线上日志提炼代表性任务，制作可直接执行、来源可追溯的测评数据集"
+  default_prompt: "请使用 $online-data-eval-dataset 分析我提供的线上数据，构建典型任务测评数据集并完成质量核查。"

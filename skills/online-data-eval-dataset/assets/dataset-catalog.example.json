@@ -1,0 +1,36 @@
+{
+  "batch": "example-batch",
+  "expected_count": 1,
+  "cases": [
+    {
+      "id": "A01",
+      "title": "问题状态汇总",
+      "category": "A_表格数据处理与分析",
+      "folder": "A_表格数据处理与分析/A01_问题状态汇总",
+      "ability": "按明确状态优先级处理问题明细，并按负责人汇总，保留排除原因。",
+      "sources": [
+        {
+          "file": "日志汇总.md",
+          "locator": "第12—14行",
+          "kind": "summary",
+          "excerpt": "按问题类别和负责人整理跟进进度。"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "问题明细.csv",
+          "origin": "constructed",
+          "notes": "教学示例；原附件未取得，按需求构造可核对的状态组合。"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "A01_问题进度.xlsx",
+          "description": "逐条状态处理、负责人汇总及未纳入原因，集中在一个工作簿。"
+        }
+      ],
+      "scope_changes": [],
+      "network": false
+    }
+  ]
+}
